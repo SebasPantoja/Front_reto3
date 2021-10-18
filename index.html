@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html >
+<head>
+  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/misFunciones.js"></script>  
+    <title>Reto3</title>
+</head>
+<body>
+
+    <h1> Auditorios</h1>
+    <div id="audience"></div>
+    <button onclick="traerInformacionAuditorios()" > Consultar</button>
+    
+    <div>
+        <input type="text" id="Aname" placeholder="name">
+        <input type="text" id="Aowner" placeholder="owner">
+        <input type="number" id="Acapacity" placeholder="capacity">
+        <input type="text" id="Adescription" placeholder="description">    
+    </div>
+    <button onclick="guardarInformacionAuditorios()"> Guardar</button>
+
+
+
+    <h1> Tipos</h1>
+    <div id="category"></div>
+    <button onclick="traerInformacionTipos()" > Consultar</button>
+    
+    <div>
+        <input type="text" id="Tname" placeholder="name">
+        <input type="text" id="Tdescription" placeholder="description">
+    </div>
+    <button onclick="guardarInformacionTipos()"> Guardar</button>
+
+
+
+    <h1> Clientes</h1>
+    <div id="client"></div>
+    <button onclick="traerInformacionClientes()" > Consultar</button>
+    
+    <div>
+        <input type="text" id="CLemail" placeholder="email">
+        <input type="text" id="CLpassword" placeholder="password">
+        <input type="text" id="CLname" placeholder="name">
+        <input type="number" id="CLage" placeholder="age">  
+    </div>
+    <button onclick="guardarInformacionClientes()"> Guardar</button>
+
+
+
+    <h1> Mensajes</h1>
+    <div id="message"></div>
+    <button onclick="traerInformacionMensajes()" > Consultar</button>
+    
+    <div>
+        <input type="number" id="mId" placeholder="id">
+        <input type="text" id="mText" placeholder="message">
+    </div>
+    <button onclick="guardarInformacionMensajes()"> Guardar</button>
+
+
+
+    <h1> Reservas</h1>
+    <div id="reservation"></div>
+    <button onclick="traerInformacionReservas()" > Consultar</button>
+    
+    <div>
+        <input type="number" id="rId" placeholder="Id Reserva">
+        <input type="datetime" id="rStartDate" placeholder="Start Date">
+        <input type="datetime" id="rDevolutionDate" placeholder="Devolution Date"> 
+        <input type="text" id="rStatus" placeholder="Status">  
+    </div>
+    <button onclick="guardarInformacionReservas()"> Guardar</button>
+
+
+
+</body>
+</html>
